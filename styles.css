@@ -94,3 +94,38 @@ main {
   width: 403px;
   height: 328px;
 }
+
+.launch {
+  border-radius: 10px;
+  background-color: #4E47FF;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 12px 36px;
+  border: none;
+}
+
+
+/* User Stats */
+
+.user-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user {
+  margin-top: 116px;
+  background-color: #4d47ff1d;
+  padding: 50px 80px;
+  border-radius: 24px;
+}
+
+.user-heading {
+  text-align: center;
+}
+
+.actions {
+  font-size: 80px;
+  color: #4E47FF;
+}
+
