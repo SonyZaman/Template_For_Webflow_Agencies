@@ -63,3 +63,34 @@ nav {
   padding: 12px 36px;
 }
 
+
+
+
+/* Action */
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.action {
+  margin-top: 116px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-description {
+  font-size: 24px;
+  color: #25243283;
+}
+
+.action-title {
+  font-size: 42px;
+}
+
+.action-img {
+  border-radius: 48px;
+  width: 403px;
+  height: 328px;
+}
