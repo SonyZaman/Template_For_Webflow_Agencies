@@ -240,3 +240,71 @@ main {
 .focus-sub-title {
   color: #0000007a;
 }
+
+/* Contact Form */
+
+
+/* Container for the form */
+.touch-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px; /* Adjusted padding for a more balanced top space */
+
+}
+
+/* Form title styling */
+.touch-title {
+  font-size: 70px; /* More scalable font size */
+  font-weight: bold; /* Adds emphasis to the title */
+  width: 100%; /* Full width for better responsiveness */
+  text-align: center; /* Centered title */
+  margin-bottom: 20px; /* Adds space between the title and form */
+}
+
+/* Form styling */
+.touch-form {
+  width: 100%;
+  max-width: 500px; /* Limit max width for responsiveness */
+  margin: 0 auto; /* Centers the form horizontally */
+}
+
+/* Styling for text and email input fields */
+input[type="text"],
+input[type="email"] ,
+textarea{
+  height: 50px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 100%; /* Make inputs take full width within the form */
+  box-sizing: border-box; /* Ensures padding is included in width calculation */
+  margin-bottom: 20px; /* Space between inputs */
+  border: 1px solid #ccc; /* Light border color */
+  font-size: 16px; /* Ensures text is readable */
+  transition: border-color 0.3s ease; /* Smooth transition for focus effect */
+}
+
+/* Focus effect for inputs */
+input[type="text"]:focus,
+input[type="email"]:focus {
+  outline: none;
+  border-color: #4E47FF; /* Border turns blue when focused */
+}
+
+/* Button styling */
+.touch-btn {
+  display: block;
+  padding: 15px 40px;
+  background-color: #4E47FF;
+  color: #FFFFFF;
+  border-radius: 10px;
+  width: 100%; /* Make button take full width */
+  font-size: 18px;
+  border: none;
+
+
+}
+
+
+
+
