@@ -7,10 +7,10 @@
 
 ---
 
-### 2. Banner Section (10 Marks)
+### 2. Banner Section 
 
-- **Heading** in the center. (3)
-- **Stay Focused** button in the center. (3)
+- **Heading** in the center. 
+- **Stay Focused** button in the center. 
 
 ---
 
@@ -40,7 +40,7 @@
 
 ---
 
-### 5. Let’s Get In Touch Section (10 Marks)
+### 5. Let’s Get In Touch Section 
 
 - Left Side:
   - Section Title
