@@ -1,3 +1,5 @@
+
+
 /* Fonts */
 .raleway-normal {
   font-family: "Raleway", sans-serif;
@@ -130,10 +132,8 @@ main {
 }
 
 /* Users Feedback */
-
-
 .users-feedback {
-  justify-content: space-between;
+  justify-content: center; /* Aligns the content in the center */
   max-width: 1140px;
   margin: 0 auto;
   margin-top: 137px;
@@ -144,22 +144,26 @@ main {
   font-size: 42px;
   font-weight: bold;
   color: #252432;
+  text-align: center; /* Center the heading */
 }
 
 .feedback {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  align-items: stretch;
+  justify-content: space-between; /* Distribute reviews evenly in one row */
   gap: 20px;
   padding: 24px;
 }
 
 .review {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly less transparent */
   border: 1px solid rgba(242, 237, 237, 1);
   border-radius: 14px;
   padding: 24px;
   box-shadow: 2px 2px 2px rgba(203, 170, 234, 0.548);
+  flex: 1; /* Ensures that each review takes up equal space */
+  min-width: 300px; /* Ensures a minimum width for each review */
+  max-width: 350px; /* Limiting the max-width to maintain consistency */
 }
 
 .image {
@@ -327,6 +331,7 @@ input[type="email"]:focus {
   font-weight: 600; /* Slightly bold for readability */
 
 }
+
 
 
 
