@@ -306,5 +306,43 @@ input[type="email"]:focus {
 }
 
 
+/* Footer */
+.end {
+  text-align: center;
+  padding: 80px 40px 60px 40px; /* Adjusted padding for better alignment */
+  background-color: #f4f4f4;  /* Subtle background color for professionalism */
+}
+
+.end ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 32px;  /* Reduced gap for a cleaner look */
+  padding: 0;
+}
+
+.end ul li a {
+  text-decoration: none;
+  color: #333; /* Darker text for better contrast */
+  font-weight: 600; /* Slightly bold for readability */
+
+}
+
+
+
+.end-logo {
+  color: #4E47FF;
+  font-size: 60px; /* Adjusted size for better balance */
+  font-weight: bold;
+}
+
+.end-description {
+  color: #6b6b6b; /* Subtle gray color for description */
+  font-size: 16px; /* Reduced font size for readability */
+  margin-bottom: 40px; /* Added space below description */
+  line-height: 1.6; /* Improved line spacing for clarity */
+}
+
+
 
 
